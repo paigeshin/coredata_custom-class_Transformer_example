@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		8DCCEC0F25EAA8FE00F0B0F3 /* RoomsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCEC0E25EAA8FE00F0B0F3 /* RoomsApp.swift */; };
-		8DCCEC1125EAA8FE00F0B0F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCEC1025EAA8FE00F0B0F3 /* ContentView.swift */; };
 		8DCCEC1325EAA8FF00F0B0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCEC1225EAA8FF00F0B0F3 /* Assets.xcassets */; };
 		8DCCEC1625EAA8FF00F0B0F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCEC1525EAA8FF00F0B0F3 /* Preview Assets.xcassets */; };
+		8DCCEC2125EAA93500F0B0F3 /* AddRoomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCEC2025EAA93500F0B0F3 /* AddRoomScreen.swift */; };
+		8DCCEC2525EAA94400F0B0F3 /* RoomListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCEC2425EAA94400F0B0F3 /* RoomListScreen.swift */; };
+		C4ABAE19297123670006C64A /* RoomModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4ABAE17297123670006C64A /* RoomModel.xcdatamodeld */; };
+		C4ABAE1B29712DD00006C64A /* Room+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ABAE1A29712DD00006C64A /* Room+CoreDataClass.swift */; };
+		C4ABAE1D29712E000006C64A /* Room+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ABAE1C29712E000006C64A /* Room+CoreDataProperties.swift */; };
+		C4ABAE1F29712EA00006C64A /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ABAE1E29712EA00006C64A /* CoreDataManager.swift */; };
+		C4ABAE2129712EEB0006C64A /* AddRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ABAE2029712EEB0006C64A /* AddRoomViewModel.swift */; };
+		C4ABAE232971308E0006C64A /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ABAE222971308E0006C64A /* UIColorTransformer.swift */; };
+		C4ABAE25297132260006C64A /* RoomListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4ABAE24297132260006C64A /* RoomListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DCCEC0B25EAA8FE00F0B0F3 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCCEC0E25EAA8FE00F0B0F3 /* RoomsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsApp.swift; sourceTree = "<group>"; };
-		8DCCEC1025EAA8FE00F0B0F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DCCEC1225EAA8FF00F0B0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DCCEC1525EAA8FF00F0B0F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DCCEC1725EAA8FF00F0B0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DCCEC2025EAA93500F0B0F3 /* AddRoomScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomScreen.swift; sourceTree = "<group>"; };
+		8DCCEC2425EAA94400F0B0F3 /* RoomListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListScreen.swift; sourceTree = "<group>"; };
+		C4ABAE18297123670006C64A /* RoomModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RoomModel.xcdatamodel; sourceTree = "<group>"; };
+		C4ABAE1A29712DD00006C64A /* Room+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Room+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C4ABAE1C29712E000006C64A /* Room+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Room+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C4ABAE1E29712EA00006C64A /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C4ABAE2029712EEB0006C64A /* AddRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRoomViewModel.swift; sourceTree = "<group>"; };
+		C4ABAE222971308E0006C64A /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
+		C4ABAE24297132260006C64A /* RoomListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +68,16 @@
 		8DCCEC0D25EAA8FE00F0B0F3 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
+				8DCCEC2925EAFD7500F0B0F3 /* Transformers */,
+				8DCCEC2825EAFD6D00F0B0F3 /* Models */,
+				8DCCEC2725EAFD5A00F0B0F3 /* Managers */,
+				8DCCEC1F25EAA91B00F0B0F3 /* View Models */,
+				8DCCEC1E25EAA91500F0B0F3 /* Screens */,
 				8DCCEC0E25EAA8FE00F0B0F3 /* RoomsApp.swift */,
-				8DCCEC1025EAA8FE00F0B0F3 /* ContentView.swift */,
 				8DCCEC1225EAA8FF00F0B0F3 /* Assets.xcassets */,
 				8DCCEC1725EAA8FF00F0B0F3 /* Info.plist */,
 				8DCCEC1425EAA8FF00F0B0F3 /* Preview Content */,
+				C4ABAE17297123670006C64A /* RoomModel.xcdatamodeld */,
 			);
 			path = Rooms;
 			sourceTree = "<group>";
@@ -67,6 +88,49 @@
 				8DCCEC1525EAA8FF00F0B0F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DCCEC1E25EAA91500F0B0F3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DCCEC2025EAA93500F0B0F3 /* AddRoomScreen.swift */,
+				8DCCEC2425EAA94400F0B0F3 /* RoomListScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		8DCCEC1F25EAA91B00F0B0F3 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABAE2029712EEB0006C64A /* AddRoomViewModel.swift */,
+				C4ABAE24297132260006C64A /* RoomListViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		8DCCEC2725EAFD5A00F0B0F3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABAE1E29712EA00006C64A /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8DCCEC2825EAFD6D00F0B0F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABAE1A29712DD00006C64A /* Room+CoreDataClass.swift */,
+				C4ABAE1C29712E000006C64A /* Room+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DCCEC2925EAFD7500F0B0F3 /* Transformers */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABAE222971308E0006C64A /* UIColorTransformer.swift */,
+			);
+			path = Transformers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +202,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DCCEC1125EAA8FE00F0B0F3 /* ContentView.swift in Sources */,
+				C4ABAE19297123670006C64A /* RoomModel.xcdatamodeld in Sources */,
+				C4ABAE1B29712DD00006C64A /* Room+CoreDataClass.swift in Sources */,
+				8DCCEC2525EAA94400F0B0F3 /* RoomListScreen.swift in Sources */,
+				C4ABAE232971308E0006C64A /* UIColorTransformer.swift in Sources */,
+				C4ABAE2129712EEB0006C64A /* AddRoomViewModel.swift in Sources */,
+				8DCCEC2125EAA93500F0B0F3 /* AddRoomScreen.swift in Sources */,
+				C4ABAE1D29712E000006C64A /* Room+CoreDataProperties.swift in Sources */,
+				C4ABAE25297132260006C64A /* RoomListViewModel.swift in Sources */,
+				C4ABAE1F29712EA00006C64A /* CoreDataManager.swift in Sources */,
 				8DCCEC0F25EAA8FE00F0B0F3 /* RoomsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +400,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4ABAE17297123670006C64A /* RoomModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4ABAE18297123670006C64A /* RoomModel.xcdatamodel */,
+			);
+			currentVersion = C4ABAE18297123670006C64A /* RoomModel.xcdatamodel */;
+			path = RoomModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8DCCEC0325EAA8FE00F0B0F3 /* Project object */;
 }
