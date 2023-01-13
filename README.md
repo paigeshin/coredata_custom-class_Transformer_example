@@ -1,0 +1,1 @@
+# coredata_custom-class_Transformer_example
